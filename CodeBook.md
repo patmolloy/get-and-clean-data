@@ -109,12 +109,12 @@ Activity id column is used to look up descriptions in activity_labels.txt.
 
 The activity lables are ...
 
-* 1 WALKING
-* 2 WALKING_UPSTAIRS
-* 3 WALKING_DOWNSTAIRS
-* 4 SITTING
-* 5 STANDING
-* 6 LAYING
+    1 WALKING
+    2 WALKING_UPSTAIRS
+    3 WALKING_DOWNSTAIRS
+    4 SITTING
+    5 STANDING
+    6 LAYING
 
 
 ### Labels are modified
