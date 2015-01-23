@@ -93,7 +93,7 @@ collectors (features.txt tile).
 
 ### Extract only the mean and standard deviation variables
 
-From the merged data set is extracted and intermediate data set with only the
+From the merged data set is extracted an intermediate (internal) data set with only the
 values of estimated mean (variables with labels that contain "mean()") and standard
 deviation (variables with labels that contain "std()"). We ignore case.
 
