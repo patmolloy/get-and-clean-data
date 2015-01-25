@@ -1,4 +1,4 @@
-list.files# Pat Molloy 16.Jan.2015
+# Pat Molloy 16.Jan.2015
 # Coursera Getting and Tidying Data Course Project
 # run_analysis.R
 
