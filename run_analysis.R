@@ -1,4 +1,4 @@
-list.files# Pat Molloy 16.Jan.2015
+# Pat Molloy 16.Jan.2015
 # Coursera Getting and Tidying Data Course Project
 # run_analysis.R
 
@@ -83,10 +83,12 @@ message ("... tidying variable names")
 names(new_sensor_data) <- gsub('\\(|\\)',"",names(new_sensor_data)) # get rid of the original parens in the names
 names(new_sensor_data) <- gsub(",","-", names(new_sensor_data)) # change any commas to a -
 
+names(new_sensor_data) <- tolower(names(new_sensor_data)) # everything to lower case as per recommendations
+
 # Ceate the finaltidy data set with the mean of each variable by activity and subject
 
 message ("... creating output in sensor_averages.txt")
-sensor_avg <- ddply(new_sensor_data, c("Subject","Activity"), numcolwise(mean))
+sensor_avg <- ddply(new_sensor_data, c("subject","activity"), numcolwise(mean))
 write.table(sensor_avg, file = "sensor_averages.txt", row.names=F)
 
 ## END

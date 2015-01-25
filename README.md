@@ -38,6 +38,15 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The file `sensor_averages.txt` is created in the working directory, and contains the tidy data set.
 
+A successful execution produces the following output
+
+    > source('~/R-Coursera/GetAndCleanData/run_analysis.R')
+    ... loading data
+    ... merging data
+    ... selecting only required columns
+    ... tidying variable names
+    ... creating output in sensor_averages.txt
+
 
 
 The original data for the project requires the following reference ..
